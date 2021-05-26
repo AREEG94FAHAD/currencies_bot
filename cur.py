@@ -3,14 +3,13 @@ import telebot
 from pycoingecko import CoinGeckoAPI
 cg = CoinGeckoAPI()
 
+import os
+APITOKEN = os.environ.get('APITOKEN')
+
 currencies = ['Bitcoin', 'Ethereum', 'Tether', 'Cardano', 'Chainlink', 'Chainlink',
               'Dogecoin', 'Ethereum-Classic', 'Polkadot', 'USD-Coin', 'Internet-Computer', 'Bitcoin-Cash', 'THORChain', 'Uniswap', 'Algorand']
 
-
-
-API_TOKEN = ''
-
-bot = telebot.TeleBot(API_TOKEN)
+bot = telebot.TeleBot(APITOKEN)
 
 def gen_markup():
     markup = InlineKeyboardMarkup()

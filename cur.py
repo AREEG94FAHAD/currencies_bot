@@ -39,7 +39,7 @@ def callback_query(call):
 
     except:
         bot.send_message(call.from_user.id,
-                         'something went wrong try agin later')
+                         'something went wrong try again later')
 
 
 bot.polling()

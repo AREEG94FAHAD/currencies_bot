@@ -59,7 +59,3 @@ python cur.py
 - [github/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
 - [The Telegram Chat Group](https://telegram.me/joinchat/Bn4ixj84FIZVkwhk2jag6A)
 
-
-# Contact me 
-Areeg94Fahad@gmail.com
-
